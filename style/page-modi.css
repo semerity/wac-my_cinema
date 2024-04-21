@@ -1,0 +1,43 @@
+.page-content section {
+  border-radius: 4px;
+  color: #3E3A5B;
+  background-color: #D2CCFF;
+}
+.div-flex hr {
+  width: 15vw;
+}
+.div-flex {
+  display: flex;
+  align-items: center;
+}
+.div-flex section {
+  margin: 1em;
+  padding: 1em;
+  height: 38vh;
+  width: 28vw;
+  text-align: center;
+}
+.modify-member {
+  text-align: left;
+  background-color: #716E89;
+}
+.modify-member form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.modify-member form select{
+  width: 16em;
+}
+.modify-member form input {
+  flex: 100%;
+  margin-top: 2.5em;
+}
+.delete-member {
+  background-color: #8370FF;
+}
+.add-member {
+  color: #3E3A5B;
+  background-color: #D2CCFF;
+}

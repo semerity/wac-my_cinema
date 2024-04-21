@@ -1,0 +1,40 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    background-color: darkslateblue;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .site-name{
+    margin: 0;
+    padding: 2vh;
+    flex: 20%;
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    color: white;
+}
+
+.nav-bar .nav-elem{
+    margin: 0;
+    padding: 0;
+    flex: 80%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-bar .nav-elem .nav-link{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
+    text-decoration: none;
+    justify-content: right;
+}
